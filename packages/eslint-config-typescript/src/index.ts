@@ -1,3 +1,3 @@
-import typescriptConfig from './typescript'
+import typescriptConfig from './typescript';
 
-export default typescriptConfig
+export default typescriptConfig;

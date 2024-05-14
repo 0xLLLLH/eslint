@@ -1,6 +1,5 @@
 /** @type {import('@types/eslint').Linter.Config} */
 module.exports = {
-  root: true,
   env: { browser: true, es2020: true },
   extends: ['@styled-link/typescript/recommended'],
   parserOptions: {

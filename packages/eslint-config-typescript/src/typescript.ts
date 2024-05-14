@@ -1,4 +1,4 @@
-import { type Linter } from 'eslint'
+import { type Linter } from 'eslint';
 
 const typescriptConfig = {
   extends: [
@@ -44,6 +44,6 @@ const typescriptConfig = {
       },
     ],
   },
-} satisfies Linter.Config
+} satisfies Linter.Config;
 
-export default typescriptConfig
+export default typescriptConfig;

@@ -12,7 +12,6 @@ export default {
   proseWrap: 'always',
   quoteProps: 'as-needed',
   requirePragma: false,
-  semi: false,
   singleAttributePerLine: false,
   singleQuote: true,
   tabWidth: 2,

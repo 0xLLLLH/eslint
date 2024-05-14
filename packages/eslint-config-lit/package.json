@@ -1,0 +1,40 @@
+{
+  "name": "@styled-link/eslint-config-lit",
+  "version": "0.0.2",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "release": "pnpm run build && pnpm publish && changelogen --release"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./index.cjs",
+  "exports": {
+    ".": {
+      "default": "./dist/index.cjs",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./*": {
+      "import": "./dist/*.js",
+      "require": "./dist/*.cjs"
+    }
+  },
+  "author": "0xLLLLH",
+  "license": "ISC",
+  "dependencies": {
+    "@styled-link/eslint-config-typescript": "workspace:*",
+    "eslint-plugin-lit": "^1.12.0",
+    "eslint-plugin-wc": "^2.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.57.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "changelogen": "^0.5.5",
+    "vite": "^5.2.11"
+  }
+}

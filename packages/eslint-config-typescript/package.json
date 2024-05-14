@@ -1,7 +1,8 @@
 {
   "name": "@styled-link/eslint-config-typescript",
   "version": "0.0.4",
-  "description": "",
+  "description": "ESLint config for typescript code",
+  "keywords": ["eslint", "eslint-config", "typescript"],
   "type": "module",
   "scripts": {
     "build": "tsc && vite build",

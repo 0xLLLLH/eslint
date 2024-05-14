@@ -1,6 +1,6 @@
 {
   "name": "@styled-link/eslint-config-typescript",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "type": "module",
   "scripts": {

@@ -1,5 +1,5 @@
 {
-  "name": "vite-react-monorepo",
+  "name": "@styled-link/eslint",
   "version": "1.0.0",
   "private": true,
   "description": "",
@@ -11,14 +11,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@styled-link/eslint-config-typescript": "workspace:*",
     "@types/node": "^20.6.3",
     "eslint": "^8.42.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-prettier": "^5.1.3",
-    "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^3.2.4",
     "typescript": "^5.2.2"
   }
 }

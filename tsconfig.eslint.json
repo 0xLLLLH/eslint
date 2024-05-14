@@ -6,10 +6,9 @@
     "noEmit": true,
   },
   "include": [
-    // whatever paths you intend to lint
-    "app",
     "src",
     "test",
-    ".eslintrc.cjs"
+    ".eslintrc.cjs",
+    "**/vite.config.ts"
   ]
 }

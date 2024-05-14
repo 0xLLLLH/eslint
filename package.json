@@ -5,7 +5,7 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "release": "pnpm --filter \"@styled-link/eslint-*...\" release",
+    "release": "pnpm --filter \"@styled-link/eslint-*...\" release && git push --follow-tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -1,7 +1,6 @@
-/**
- * @type {import('@types/eslint').ESLint.ConfigData}
- */
-module.exports = {
+import { type Linter } from 'eslint'
+
+const typescriptConfig = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -40,16 +39,11 @@ module.exports = {
       'warn',
       {
         alphabetize: { order: 'asc', caseInsensitive: true },
-        groups: [
-          'builtin',
-          'external',
-          'internal',
-          'parent',
-          'sibling',
-          'index',
-        ],
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
         'newlines-between': 'always',
       },
     ],
   },
-}
+} satisfies Linter.Config
+
+export default typescriptConfig

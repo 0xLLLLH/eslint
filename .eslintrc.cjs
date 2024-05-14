@@ -2,7 +2,7 @@
 module.exports = {
   root: true,
   env: { browser: true, es2020: true },
-  extends: ['@styled-link/typescript'],
+  extends: ['@styled-link/typescript/recommended'],
   parserOptions: {
     project: ['./tsconfig.eslint.json', './packages/*/tsconfig.json'],
     tsconfigRootDir: __dirname,

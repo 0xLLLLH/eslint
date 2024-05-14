@@ -1,1 +1,3 @@
-module.exports = require('./typescript.cjs');
+import typescriptConfig from './typescript'
+
+export default typescriptConfig

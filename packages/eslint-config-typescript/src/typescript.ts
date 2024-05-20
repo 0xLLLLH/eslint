@@ -21,6 +21,8 @@ const typescriptConfig = {
   },
   plugins: ['@typescript-eslint'],
   rules: {
+    'no-undef': 'off',
+    'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/no-empty-function': 'warn',
     '@typescript-eslint/no-namespace': 'warn',

@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.0.5
+
+[compare changes](https://github.com/0xLLLLH/eslint/compare/v0.0.4...v0.0.5)
+
+### 🩹 Fixes
+
+- **eslint-config-typescript:** Disable useless rules by default ([954aa3d](https://github.com/0xLLLLH/eslint/commit/954aa3d))
+
+### 🏡 Chore
+
+- **release:** V0.0.4 ([f45f21e](https://github.com/0xLLLLH/eslint/commit/f45f21e))
+- **package.json:** Add keywords field ([9b5551f](https://github.com/0xLLLLH/eslint/commit/9b5551f))
+
+### ❤️ Contributors
+
+- 0xLLLLH ([@0xLLLLH](http://github.com/0xLLLLH))
+
 ## v0.0.4
 
 [compare changes](https://github.com/0xLLLLH/eslint/compare/v0.0.3...v0.0.4)

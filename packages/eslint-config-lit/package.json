@@ -1,5 +1,5 @@
 {
-  "name": "@styled-link/eslint-config-lit",
+  "name": "@styled.link/eslint-config-lit",
   "version": "0.0.5",
   "description": "",
   "keywords": [
@@ -31,7 +31,7 @@
   "author": "0xLLLLH",
   "license": "ISC",
   "dependencies": {
-    "@styled-link/eslint-config-typescript": "workspace:*",
+    "@styled.link/eslint-config-typescript": "workspace:*",
     "eslint-plugin-lit": "^1.12.0",
     "eslint-plugin-wc": "^2.1.0"
   },

@@ -1,5 +1,5 @@
 {
-  "name": "@styled-link/eslint-config-typescript",
+  "name": "@styled.link/eslint-config-typescript",
   "version": "0.0.5",
   "description": "ESLint config for typescript code",
   "keywords": [
@@ -29,8 +29,8 @@
   "author": "0xLLLLH",
   "license": "ISC",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.9.0",
-    "@typescript-eslint/parser": "^7.9.0",
+    "@typescript-eslint/eslint-plugin": "7.9.0",
+    "@typescript-eslint/parser": "7.9.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-node": "^0.3.9",
     "eslint-import-resolver-typescript": "^3.6.1",

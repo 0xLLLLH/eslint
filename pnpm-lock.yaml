@@ -8,7 +8,7 @@ importers:
 
   .:
     devDependencies:
-      '@styled-link/eslint-config-typescript':
+      '@styled.link/eslint-config-typescript':
         specifier: workspace:*
         version: link:packages/eslint-config-typescript
       '@types/node':
@@ -29,7 +29,7 @@ importers:
 
   packages/eslint-config-lit:
     dependencies:
-      '@styled-link/eslint-config-typescript':
+      '@styled.link/eslint-config-typescript':
         specifier: workspace:*
         version: link:../eslint-config-typescript
       eslint:
@@ -55,10 +55,10 @@ importers:
   packages/eslint-config-typescript:
     dependencies:
       '@typescript-eslint/eslint-plugin':
-        specifier: ^7.9.0
+        specifier: 7.9.0
         version: 7.9.0(@typescript-eslint/parser@7.9.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)
       '@typescript-eslint/parser':
-        specifier: ^7.9.0
+        specifier: 7.9.0
         version: 7.9.0(eslint@8.57.0)(typescript@5.4.5)
       eslint:
         specifier: ^8.57.0

@@ -1,11 +1,11 @@
 {
-  "name": "@styled-link/eslint",
+  "name": "@styled.link/eslint",
   "version": "1.0.0",
   "private": true,
   "description": "",
   "type": "module",
   "scripts": {
-    "release": "pnpm --filter \"@styled-link/eslint-*...\" release && git push --follow-tags",
+    "release": "pnpm --filter \"@styled.link/eslint-*...\" release && git push --follow-tags",
     "commit": "cz",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@styled-link/eslint-config-typescript": "workspace:*",
+    "@styled.link/eslint-config-typescript": "workspace:*",
     "@types/node": "^20.6.3",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",

@@ -1,6 +1,6 @@
 {
   "name": "@styled.link/eslint-config-typescript",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "ESLint config for typescript code",
   "keywords": [
     "eslint",

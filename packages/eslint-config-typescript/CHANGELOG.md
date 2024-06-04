@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.0.6
+
+[compare changes](https://github.com/0xLLLLH/eslint/compare/v0.0.5...v0.0.6)
+
+### 🚀 Enhancements
+
+- Change package org; pin dep version ([17e8f53](https://github.com/0xLLLLH/eslint/commit/17e8f53))
+
+### 🏡 Chore
+
+- **release:** V0.0.5 ([0706793](https://github.com/0xLLLLH/eslint/commit/0706793))
+
+### ❤️ Contributors
+
+- 0xLLLLH ([@0xLLLLH](http://github.com/0xLLLLH))
+
 ## v0.0.5
 
 [compare changes](https://github.com/0xLLLLH/eslint/compare/v0.0.4...v0.0.5)
